@@ -1,0 +1,12 @@
+p{
+	text-shadow: 10;
+	font-family: fantasy;
+	color: lightgrey;
+	font-style: oblique;
+	background-color: limegreen;
+	/*border: 10px dotted black;
+  	padding: 15px;
+  	background:yellow;
+  	background-clip: border-box;*/
+  	background-position: 10px 30px;  
+}

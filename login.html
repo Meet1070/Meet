@@ -1,0 +1,67 @@
+<html>
+   <head>
+   <style>
+   .main{
+       margin:auto;
+       width:400px;
+       margin-top:200px;
+       border:1px solid #bcbcbc;
+       padding:20px 50px;
+       border-radius:10px;
+       background-color:#ECC5C0;
+   }
+   .head{
+       text-align:center;
+       font-family:Times New Roman;
+       marging-top:5px;
+        }
+   p{
+       font-family:Garamond;
+       font-size:16px;
+       font-weight:400;
+       letter-spacing:1px;
+   }
+   input{
+       width:100%;
+       padding:10px;
+       font-size:16px;
+   }
+   input:focus{
+       background-color:#ebebff;
+   }
+   .btn{
+       font-weight:600;
+       margin-top:20px;
+   }
+   .img {
+        backface-visibility: blur;
+       padding: 1px;
+       width: 50px;
+       marging:auto;
+
+}
+
+
+
+   </style>
+   </head>
+   
+   <body>
+   <div class="main">
+   <form method="post" action="form.html">
+   <div>  <h2 class="head"><img src="insta.jpg" class="img">Instagram</h2></div>
+   <div style="margin:auto">
+   <p>EMAIL</p>
+   <input type="email" name="email" id="txtemail"/>
+   </div>
+   <div style="marging:auto">
+   <p>  PASSWORD</p>
+   <input type="password" name="txtpassword" id="txtpassword" />
+   </div>
+   <div style="marging-top:40px">
+   <input type="submit" class="btn" name="btnsubmit" id="submit" value="Login"/>
+   </div>
+   </form>
+   </div>
+   </body>
+</html>
